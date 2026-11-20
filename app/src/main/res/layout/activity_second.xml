@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/background_gray">
+
+    <!-- متن نمایش نام کاربری در بالای اکتیویتی دوم طبق درخواست -->
+    <TextView
+        android:id="@+id/tvDisplayUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="نام کاربری: "
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_color"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@android:drawable/dialog_holo_light_frame" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="خوش آمدید!"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/purple_700" />
+
+</LinearLayout>
