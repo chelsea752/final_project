@@ -24,6 +24,9 @@
 ## 📂 ساختار پروژه
 ```text
 LoginApp/
+├── analysis/                              # پوشه تحلیل و آنالیز خط‌به‌خط کدها
+│   ├── CODE_ANALYSIS.md                   # مستند تفصیلی و جدول تحلیل کدها
+│   └── README.md
 ├── app/
 │   ├── src/
 │   │   └── main/
@@ -43,6 +46,11 @@ LoginApp/
 ├── settings.gradle
 └── README.md
 ```
+
+---
+
+## 🔍 تحلیل و آنالیز کدها
+تحلیل و بررسی خط‌به‌خط و جامع تمامی فایل‌های سورس در پوشه [analysis/](analysis/CODE_ANALYSIS.md) قرار گرفته است.
 
 ---
 
